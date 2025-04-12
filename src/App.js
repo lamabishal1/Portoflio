@@ -3,16 +3,6 @@ import ProfilePic from "./components/img/profile.png";
 import './App.css'; 
 
 const Portfolio = () => {
-  const [theme] = useState(() => {
-    return localStorage.getItem("theme") || "dark";
-  });
-
-  useEffect(() => {
-    localStorage.setItem("theme", theme);
-  }, [theme]);
-
-  const isDark = theme === "dark";  
-
   const skills = [
     "JavaScript ",
     "Bootstrap / Tailwind CSS",
