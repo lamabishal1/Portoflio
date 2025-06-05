@@ -5,17 +5,17 @@ import { FaGithub } from 'react-icons/fa';
 
 const Portfolio = () => {
   const skills = [
+    "React",
     "JavaScript ",
     "Bootstrap / Tailwind CSS",
     "HTML5 / CSS3",
     "Git / GitHub",
-    "React"
+    "AWS"
   ];
   const practicing = [
     "Next js",
     "TypeScript",
     "React Native",
-    "AWS"
   ];
 
   const content = {
@@ -24,23 +24,32 @@ const Portfolio = () => {
       selfIntro: "こんにちは！日本在住のWeb開発者です。Reactなどの最新のWeb技術を活用し、使いやすくレスポンシブな ウェブサイトとWebアプリを作ることが得意です。",
       motivation: "私は高品質なデジタル体験を創造する革新的なチームに貢献したいと考えています。日本でのキャリアをさらに発展させ、スキルを磨きながら、意義のあるプロジェクトに携わることを目指しています。",
       projects: [
-        { title: "映画ギャラリー", 
-          description: "APIを使って映画を検索するウェブサイト。", 
-          link: "https://github.com/lamabishal1/Movie-Gallery" },
+        { title: "天気アプリ", 
+          description: "日本の都道府県に基づいて天気の詳細を選択して取得できます。", 
+          link: "https://japaneseweather-app.netlify.app/" },
         { title: "タスク ユーティリティ",
-           description: "文字や単語を整理するのに役立つウェブサイトです。", 
-           link: "https://github.com/lamabishal1/TaskUtils" }
+           description: "単語や文字を整理できます。ライトモードとダークモードがあります。", 
+           link: "https://taskutils.netlify.app/" },
+           { title: "日本の休日カレンダー",
+           description: "日本のカレンダーの月に基づいて休日を表示できます。", 
+           link: "https://jpholidaycalendar.netlify.app/" },
+           { title: "マークダウン プレビューア",
+           description: "ライブプレビューでプログラミングを記述および編集できます。", 
+           link: "https://markdnprev.netlify.app/" },
+           { title: "ドラムマシン",
+           description: "マウスまたはキーを使用してドラムの音を演奏します。", 
+           link: "https://drummac.netlify.app/" },
       ],
       otherProjects: [
         { title: "ミニ カレンダー", 
           description: "リアルタイムの日付、曜日、年を表示するミニカレンダー。", 
           link: "https://github.com/lamabishal1/Mini-Calender" },
-        { title: "ハート トレイル アニメーション", 
+        { title: "ハート トレイル ", 
           description: "マウスをホバーしてお楽しみください！。", 
           link: "https://github.com/lamabishal1/heart-trail-animation" },
-        { title: "プロジェクト4", 
-          description: "フルスタックのToDoリストアプリストアプリストアプリ。", 
-          link: "https://github.com/yourusername/project4" }
+        { title: "やることリスト", 
+          description: "タスクを追加したり削除したりできます。", 
+          link: "https://github.com/lamabishal1/To-Do-List" }
       ],
       profile: {
         name: "ラマ ビサル",
@@ -53,7 +62,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="min-vh-100">
+    <div className="min-vh-100" bg-dark text-light>
       <div className="container pt-4">
         <div className="row mt-4">
           <div className="col-md-4 text-center mb-4">
@@ -123,7 +132,7 @@ const Portfolio = () => {
                       <div className="card-body ">
                         <h5 className="card-title">{project.title}</h5>
                         <p className="card-text">{project.description}</p>
-                        <a href={project.link} target='blank' className="btn-common">GitHubで見る</a>        
+                        <a href={project.link} target='blank' className="btn-common">ライブデモ</a>        
                       </div>
                     </div>
                   </div>
