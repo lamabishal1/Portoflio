@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Bishal Lama",
+    "subtitle": "Frontend Developer",
+    "cta": "View Projects"
+  },
+   "about": {
+    "title": "About Me",
+    "description1": "Hello! I'm a web developer based in Japan. I specialize in creating responsive websites and web apps using modern web technologies like React.",
+    "description2": "I aim to contribute to innovative teams that build high-quality digital experiences. I'm eager to grow my career in Japan and work on meaningful projects while refining my skills."
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Weather App",
+        "description": "Select and get detailed weather based on Japan's prefectures.",
+        "linkLabel": "Live Demo",
+        "link": "https://japaneseweather-app.netlify.app/"
+      },
+      {
+        "title": "Task Utility",
+        "description": "Organize words and characters. Includes light and dark modes.",
+        "linkLabel": "Live Demo",
+        "link": "https://taskutils.netlify.app/"
+      },
+      {
+        "title": "Japan Holiday Calendar",
+        "description": "Display holidays based on months in the Japanese calendar.",
+        "linkLabel": "Live Demo",
+        "link": "https://jpholidaycalendar.netlify.app/"
+      },
+      {
+        "title": "Markdown Previewer",
+        "description": "Write and edit programming with live preview.",
+        "linkLabel": "Live Demo",
+        "link": "https://markdnprev.netlify.app/"
+      },
+      {
+        "title": "Drum Machine",
+        "description": "Play drum sounds using mouse or keys.",
+        "linkLabel": "Live Demo",
+        "link": "https://drummac.netlify.app/"
+      }]},
+      "skills": {
+    "title": "Skills / Tech Stack",
+    "masteredTitle": "Mastered Skills",
+    "practicingTitle": "Currently Practicing",
+    "masteredList": [
+      "React",
+      "JavaScript",
+      "Bootstrap / Tailwind CSS",
+      "HTML5 / CSS3",
+      "Git / GitHub",
+      "AWS"
+    ],
+    "practicingList": [
+      "Next.js",
+      "TypeScript",
+      "React Native"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address : Saitama, Japan",
+    "github": "GitHub",
+    "downloadResume": "Download Resume"
+  },
+    "footer": {
+    "allRights": "All rights reserved."
+  }
+}

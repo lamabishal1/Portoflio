@@ -1,9 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Motion = motion;
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="hero"
@@ -16,16 +19,16 @@ const Hero = () => {
         className="text-center px-4"
       >
         <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">
-          こんにちは！ラマ ビサルです。
+          {t('hero.title')}
         </h1>
         <p className="text-2xl mb-6 drop-shadow-md">
-         日本在住のフロントエンド開発者
+          {t('hero.subtitle')}
         </p>
         <a
           href="#projects"
           className="inline-block bg-yellow-400 text-indigo-900 px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-yellow-300 transition"
         >
-          プロジェクトを見る'
+          {t('hero.cta')}
         </a>
       </Motion.div>
     </section>
