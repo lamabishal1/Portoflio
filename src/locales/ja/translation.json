@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "自己紹介",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "こんにちは！ラマ ビサルです。",
+    "subtitle": "フロントエンド開発者",
+    "cta": "プロジェクトを見る"
+  },
+  "about": {
+    "title": "自己紹介",
+    "description1": "こんにちは！日本在住のWeb開発者です。Reactなどの最新のWeb技術を活用し、使いやすくレスポンシブなウェブサイトとWebアプリを作ることが得意です。",
+    "description2": "高品質なデジタル体験を創造する革新的なチームに貢献したいと考えています。日本でのキャリアをさらに発展させ、スキルを磨きながら、意義のあるプロジェクトに携わることを目指しています。"
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "list": [
+      {
+        "title": "天気アプリ",
+        "description": "日本の都道府県に基づいて天気の詳細を選択して取得できます。",
+        "linkLabel": "ライブデモ",
+        "link": "https://japaneseweather-app.netlify.app/"
+      },
+      {
+        "title": "タスク ユーティリティ",
+        "description": "単語や文字を整理できます。ライトモードとダークモードがあります。",
+        "linkLabel": "ライブデモ",
+        "link": "https://taskutils.netlify.app/"
+      },
+      {
+        "title": "日本の休日カレンダー",
+        "description": "日本のカレンダーの月に基づいて休日を表示できます。",
+        "linkLabel": "ライブデモ",
+        "link": "https://jpholidaycalendar.netlify.app/"
+      },
+      {
+        "title": "マークダウン プレビューア",
+        "description": "ライブプレビューでプログラミングを記述および編集できます。",
+        "linkLabel": "ライブデモ",
+        "link": "https://markdnprev.netlify.app/"
+      },
+      {
+        "title": "ドラムマシン",
+        "description": "マウスまたはキーを使用してドラムの音を演奏します。",
+        "linkLabel": "ライブデモ",
+        "link": "https://drummac.netlify.app/"
+      }
+    ]
+  },
+   "skills": {
+    "title": "スキル / 技術スタック",
+    "masteredTitle": "習熟スキル",
+    "practicingTitle": "現在練習中の技術",
+    "masteredList": [
+      "React",
+      "JavaScript",
+      "Bootstrap / Tailwind CSS",
+      "HTML5 / CSS3",
+      "Git / GitHub",
+      "AWS"
+    ],
+    "practicingList": [
+      "Next.js",
+      "TypeScript",
+      "React Native"
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "email": "Email",
+    "phone": "電話番号",
+    "address": "住所 : 埼玉、日本",
+    "github": "GitHub",
+    "downloadResume": "履歴書をダウンロード"
+  },
+  "footer": {
+    "allRights": "All rights reserved."
+  }
+}
