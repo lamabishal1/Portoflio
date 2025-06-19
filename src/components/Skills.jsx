@@ -22,8 +22,8 @@ const practicing = [
 const Skills = () => {
   const { t } = useTranslation();
 
-  const masteredSkills = t('skills.masteredList', { returnObjects: true });
-  const practicingSkills = t('skills.practicingList', { returnObjects: true });
+  const masteredSkills = t('skills.masteredList', { returnObjects: true }) || skills;;
+  const practicingSkills = t('skills.practicingList', { returnObjects: true }) || practicing;
 
   return (
     <section id="skills" className="py-20 bg-white text-indigo-900 px-6 md:px-20">

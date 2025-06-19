@@ -21,11 +21,11 @@ const Navbar = () => {
             alt="Profile"
             className="w-6 h-6 rounded-full object-cover"
           />
-          <span className="font-semibold text-gray-800">Lama Bishal | Frontend Developer </span>
+    
           <span className="font-semibold text-gray-800 text-sm md:text-base whitespace-nowrap">
             Lama Bishal | Frontend Developer
           </span>
-        </div>78cbf9e1f82267286583897f40f7e55edb74
+        </div>
 
         
         <div className="hidden md:flex items-center space-x-2 md:space-x-4 text-xs md:text-sm whitespace-nowrap flex-shrink max-w-full overflow-visible flex-wrap">
