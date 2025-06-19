@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
 
         <a
-          href="/履歴書.pdf"
+          href="/resume.pdf"
           download
           className="inline-block mt-12 px-10 py-4 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition"
         >

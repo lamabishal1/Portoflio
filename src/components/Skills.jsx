@@ -15,7 +15,7 @@ const skills = [
 const practicing = [
   "Next.js",
   "TypeScript",
-  "React Native",
+  "Node.js",
 ];
 
 const Skills = () => {

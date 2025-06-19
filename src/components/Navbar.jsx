@@ -12,7 +12,7 @@ const Navbar = () => {
             alt="Profile"
             className="w-6 h-6 rounded-full object-cover"
           />
-          <span className="font-semibold text-gray-800">Lama Bishal</span>
+          <span className="font-semibold text-gray-800">Lama Bishal | Frontend Developer </span>
         </div>
 
         <div className="hidden md:flex space-x-6 text-gray-700 font-medium">
