@@ -17,6 +17,7 @@ const practicing = [
   "Next.js",
   "TypeScript",
   "Node.js",
+  "Framer-Motion"
 ];
 
 const Skills = () => {
